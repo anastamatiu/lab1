@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		75CCEF4A1B49D35000663894 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCEF491B49D35000663894 /* main.m */; };
 		75CCEF521B49D3A500663894 /* Ex1.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCEF511B49D3A500663894 /* Ex1.m */; };
-		75CCEF551B49D74200663894 /* Ex2.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCEF541B49D74200663894 /* Ex2.m */; };
 		75CCEF581B49DC7000663894 /* Ex3.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCEF571B49DC7000663894 /* Ex3.m */; };
 		75CCEF5B1B49DC9600663894 /* Worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CCEF5A1B49DC9600663894 /* Worker.m */; };
+		8E22C6201B4AAD49003D0EE7 /* Ex2.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E22C61F1B4AAD49003D0EE7 /* Ex2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,11 +32,11 @@
 		75CCEF501B49D3A500663894 /* Ex1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ex1.h; sourceTree = "<group>"; };
 		75CCEF511B49D3A500663894 /* Ex1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex1.m; sourceTree = "<group>"; };
 		75CCEF531B49D74200663894 /* Ex2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ex2.h; sourceTree = "<group>"; };
-		75CCEF541B49D74200663894 /* Ex2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex2.m; sourceTree = "<group>"; };
 		75CCEF561B49DC7000663894 /* Ex3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ex3.h; sourceTree = "<group>"; };
 		75CCEF571B49DC7000663894 /* Ex3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex3.m; sourceTree = "<group>"; };
 		75CCEF591B49DC9600663894 /* Worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Worker.h; sourceTree = "<group>"; };
 		75CCEF5A1B49DC9600663894 /* Worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Worker.m; sourceTree = "<group>"; };
+		8E22C61F1B4AAD49003D0EE7 /* Ex2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ex2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +73,11 @@
 				75CCEF501B49D3A500663894 /* Ex1.h */,
 				75CCEF511B49D3A500663894 /* Ex1.m */,
 				75CCEF531B49D74200663894 /* Ex2.h */,
-				75CCEF541B49D74200663894 /* Ex2.m */,
 				75CCEF561B49DC7000663894 /* Ex3.h */,
 				75CCEF571B49DC7000663894 /* Ex3.m */,
 				75CCEF591B49DC9600663894 /* Worker.h */,
 				75CCEF5A1B49DC9600663894 /* Worker.m */,
+				8E22C61F1B4AAD49003D0EE7 /* Ex2.m */,
 			);
 			path = lab1;
 			sourceTree = "<group>";
@@ -138,8 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E22C6201B4AAD49003D0EE7 /* Ex2.m in Sources */,
 				75CCEF581B49DC7000663894 /* Ex3.m in Sources */,
-				75CCEF551B49D74200663894 /* Ex2.m in Sources */,
 				75CCEF4A1B49D35000663894 /* main.m in Sources */,
 				75CCEF521B49D3A500663894 /* Ex1.m in Sources */,
 				75CCEF5B1B49DC9600663894 /* Worker.m in Sources */,

@@ -12,13 +12,53 @@
 
 -(NSUInteger)cumputeFibbonaci:(NSUInteger)number
 {
-    //ex2
-    return 0;
+    NSUInteger first = 1;
+    NSUInteger second = 1;
+    NSUInteger final = 2;
+    
+    NSUInteger current_number = 2;
+    
+    while(current_number < number)
+    {
+        final = first + second;
+        first = second;
+        second = final;
+        current_number++;
+    }
+    
+//    NSLog(@"%d", final);
+    return final;
+}
+
+-(double)average:(NSArray *)array
+{
+    int sum = 0;
+    double average = 0;
+    int numberOfElements = [array count];
+    
+    for(int i = 0;i < numberOfElements;i++)
+    {
+        sum = sum + [[array objectAtIndex:i] intValue];
+    }
+    
+    average = sum/numberOfElements;
+    
+    return average;
 }
 
 -(NSString *)keyBigestAverageArray:(NSDictionary *)dictionary
 {
-    //ex2
+    int max = 0;
+    
+    for (NSString *key in [dictionary allKeys])
+    {
+        NSArray *array = [NSArray new];
+        
+        NSUInteger numberOfElements = [array count];
+    
+        
+    }
+    
     return nil;
 }
 
