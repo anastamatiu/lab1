@@ -15,9 +15,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Ex1 *ex1 = [[Ex1 alloc] init];
         NSArray *array = @[@"test",@"one",@"ten"];
-//        [ex1 cappitalizeWordsFromArray:array];
-//        [ex1 linkAllWordsFromArray:array usingSeparator:@"~"];
-//        [ex1 linkAndCapitalizeAllWordsFromArray:array usingSeparator:@"~"];
+        [ex1 cappitalizeWordsFromArray:array];
+        [ex1 linkAllWordsFromArray:array usingSeparator:@"~"];
+        [ex1 linkAndCapitalizeAllWordsFromArray:array usingSeparator:@"~"];
 //        [ex1 checkPalindrome:@"madam"];
 //        [ex1 checkPalindrome:@"man"];
 //        [ex1 checkPalindromeFromCharPosition:1 ofAllWordsFromArray:array];
